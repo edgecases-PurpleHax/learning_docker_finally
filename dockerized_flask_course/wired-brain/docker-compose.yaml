@@ -1,0 +1,7 @@
+version: '3.8'  # Specify the Compose file version
+
+services:
+  productservice:
+    build: product-service
+    ports:
+      - "5000:5000"
